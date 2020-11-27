@@ -12,7 +12,5 @@
 */
 
 Route::get('/', function () {
-
-   var_dump("aki"); exit();
-    return view('index');
+    return view('welcome');
 });
